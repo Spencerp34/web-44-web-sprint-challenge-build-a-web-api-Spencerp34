@@ -18,14 +18,14 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Task 1: Project Set Up
 
-- [ ] Run `npm install` to install your dependencies.
-- [ ] Run tests locally executing `npm test`.
-- [ ] Reset the database to its original state executing `npm run resetdb`.
+- [X] Run `npm install` to install your dependencies.
+- [X] Run tests locally executing `npm test`.
+- [X] Reset the database to its original state executing `npm run resetdb`.
 
 ### Task 2: CodeGrade Setup
 
-- [ ] Accept the repository sent to your email inbox associated with your Github account.
-- [ ] Make a commit and push it to Github.
+- [X] Accept the repository sent to your email inbox associated with your Github account.
+- [X] Make a commit and push it to Github.
 - [ ] Check to see that Codegrade has accepted your git submission.
 
 ### Task 3: Project Requirements (MVP)
@@ -153,7 +153,21 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+  Node.js is great because it operates with the OS and normal JS cannot. Express adds functionality to Node.js and your server, but leaves lots of room to customize your middleware as well.
+
 1. Understand and explain the use of Middleware.
+
+Middleware is a way to apply changes or do basically anything inbetween the request coming in, and the response we send out. This way it can refine our data and be more specific in the output response.
+
 1. The basic principles of the REST architectural style.
+
+Make everything accessible a resource separated by unique URL with commands done over HTTP and its methods.
+
 1. Understand and explain the use of Express Routers.
+
+To separate commands like .get, .post, ect. for each route or URL.
+
 1. Describe tooling used to manually test the correctness of an API.
+
+I like to use Postman to do my manual testing since its so clean and bodies can be more complex. Gabe uses HTTPie a lot and that can work to test it as well.
